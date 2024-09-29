@@ -22,13 +22,17 @@ pip install -r requirements.txt
 
 Instruções sobre como instalar e executar o projeto:
 
+#### Clone o repositório
 ```bash
-# Clone o repositório
 git clone https://github.com/pedrovmcastro/Pet-Adoption.git
+```
 
-# Navegue até o diretório do projeto
-cd petadoption
+#### Navegue até o diretório do projeto
+```bash
+cd Pet-Adoption
+```
 
-# Inicie o servidor Django
+#### Inicie o servidor Django
+```bash
 python manage.py runserver
 ```

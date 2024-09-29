@@ -18,7 +18,7 @@ Este projeto utiliza o Django e outras bibliotecas. Para instalar as dependênci
 ```bash
 pip install -r requirements.txt
 ```
-## Instalação
+## Instalação e Execução
 
 Instruções sobre como instalar e executar o projeto:
 

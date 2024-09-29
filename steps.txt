@@ -1,0 +1,15 @@
+django-admin startproject PROJECT_NAME
+
+python manage.py startapp APP_NAME
+
+-- add APP_NAME to INSTALLED_APPS in settings.py
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
+
+python manage.py createsuperuser
+
+-- in admin.py = admin.site.register(MODELS)

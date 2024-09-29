@@ -1,0 +1,27 @@
+{% extends "adoption/base.html" %}
+{% load bootstrap5 %}
+
+{% block content %}
+<div>
+    {% for pet in pets %}
+        <div class="card mb-3 mx-auto">
+            <div class="ro g-0">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div>
+                        <img src="{{ pet.photo.url }}" alt={{ pet.name }} class="img-fluid rounded shadow" width="300" height="200">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ pet.name }}</h5>
+                            <p class="card-text">{{ pet.description|truncatechars:50 }}</p>
+                            <small>
+                                <a href="{% url "adoption:pet_details" pet_id=pet.id %}">View {{ pet }} details</a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock content %}

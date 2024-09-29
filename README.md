@@ -1,6 +1,6 @@
 # PetAdoption from VinciBits
 
-Este projeto é inteiramente baseado no tutorial do [VinciBits](https://www.youtube.com/watch?v=yMgqyUbtDy0) O vídeo cobre passo-a-passo a construção de uma web aplicação Django.
+Este projeto é inteiramente baseado no tutorial do [VinciBits](https://www.youtube.com/watch?v=yMgqyUbtDy0). O vídeo cobre passo-a-passo a construção de uma web aplicação Django.
 
 Video: https://www.youtube.com/watch?v=yMgqyUbtDy0
 

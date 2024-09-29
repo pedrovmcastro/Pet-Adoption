@@ -5,9 +5,9 @@ Este projeto é inteiramente baseado no tutorial do [VinciBits](https://www.yout
 ## Descrição
 
 Uma web aplicação simples de adoção de pets. Permite que os usuários:
-    * Visualizem a lista de Pets disponíveis para adoção;
-    * Vejam detalhes sobre os Pets;
-    * Submitam o interesse para a adoção de um dos Pets, deixando email e uma mensagem (opcional).
+* Visualizem a lista de Pets disponíveis para adoção
+* Vejam detalhes sobre os Pets
+* Submitam o interesse para a adoção de um dos Pets, deixando email e uma mensagem (opcional)
 
 ## Dependências
 
